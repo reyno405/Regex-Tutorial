@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex-Tutorial
 
-Introductory paragraph (replace this with your text)
+In this tutorial I will be discussing  Regex. Regex is a set of characters that together make a pattern. They can by used inside of code or algorithms to locate, or even locate and replace if that's what you desire, specific patterns inside of a string. An example of this would be to validate a user's password, identify phone numbers, email addresses, URLs, and so much more.
 
 ## Summary
 
