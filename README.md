@@ -4,7 +4,7 @@ In this tutorial I will be discussing  Regex. Regex is a set of characters that 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+\b[a-z0-9#$_-]+@[a-z0-9]+\.[a-z]{2,3}\b/gi.
 
 ## Table of Contents
 
@@ -22,8 +22,18 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
-### Anchors
-In regex archors are its own family tokens that dont belong to any spacific characters. A anchor in regex is a ^ and a $. The ^ will specify the beginning of the string while a $ will specify the end of a string. These two anchors will need to be in the order of ^ then $ like in the example of /^\d\d:\d\d$/
+### ⚓Anchors
+
+The Regex begins with \b, this is called an anchor and it's job is to define a "word boundary". By using this at the beginning/end we are forcing what's called a "whole word" search. So for example, if the Regex was \b867530\b, then only 867530 would match up but not 8675309.
+
+Some other anchors are ^ and $:
+
+^XXXXX will match any string that starts with ^XXXXX
+
+XXXXX$ will match any string that ends with XXXXX$
+
+Anchors do not match any characters, but instead they match specific positions. As you just saw ^ matches the starting position right before the 1st character of the search string. On the other hand $ matches the end of the last character, and of course \b defines the entire boundary for the search string itself.
+
 ### Quantifiers
 
 ### OR Operator
