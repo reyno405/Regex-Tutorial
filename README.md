@@ -23,7 +23,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-In regex archors are its own family tokens that dont belong to any spacific characters. A anchor in regex is a ^ and a $. The ^ will specify the beginning of the sting while a $ will specify the end of a string.
+In regex archors are its own family tokens that dont belong to any spacific characters. A anchor in regex is a ^ and a $. The ^ will specify the beginning of the string while a $ will specify the end of a string. These two anchors will need to be in the order of ^ then $ like in the example of /^\d\d:\d\d$/
 ### Quantifiers
 
 ### OR Operator
