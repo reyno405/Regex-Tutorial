@@ -1,6 +1,6 @@
 # Regex-Tutorial
 
-In this tutorial I will be discussing  Regex. Regex is a set of characters that together make a pattern. They can by used inside of code or algorithms to locate, or even locate and replace if that's what you desire, specific patterns inside of a string. An example of this would be to validate a user's password, identify phone numbers, email addresses, URLs, and so much more.
+In this tutorial I will be discussing Regex. Regex is a set of characters that together make a pattern. They can by used inside of code or algorithms to locate, or even locate and replace if that's what you desire, specific patterns inside of a string. An example of this would be to validate a user's password, identify phone numbers, email addresses, URLs, and so much more.
 
 ## Summary
 
@@ -22,7 +22,7 @@ In this tutorial I will be discussing  Regex. Regex is a set of characters that 
 
 ## Regex Components
 
-### ⚓Anchors
+### ⚓ Anchors
 
 The Regex begins with \b, this is called an anchor and it's job is to define a "word boundary". By using this at the beginning/end we are forcing what's called a "whole word" search. So for example, if the Regex was \b867530\b, then only 867530 would match up but not 8675309.
 
@@ -39,6 +39,15 @@ Anchors do not match any characters, but instead they match specific positions. 
 ### OR Operator
 
 ### Character Classes
+
+Character classes in regex matches a character from a specific set. There are numbers of characters thatare predefined, also characters can be defined as your own set.
+
+- [ABC] These characters inside the brackets will match any character in the set.
+- [^abc] When adding a caret it will match any character that is not in the set.
+- [A-z] When adding a dash inbetween two characters will select a range between the two.
+- . Is like a wildcard that will not accept any input. This character will expect a linebreak that will match.
+- \w Will match any character either alphanumeric & underscore. It will not match any o accented or non-roman characters.
+-
 
 ### Flags
 
