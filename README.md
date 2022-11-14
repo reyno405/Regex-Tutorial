@@ -45,13 +45,17 @@ Character classes in regex matches a character from a specific set. There are nu
 - [ABC] These characters inside the brackets will match any character in the set.
 - [^abc] When adding a caret it will match any character that is not in the set.
 - [A-z] When adding a dash inbetween two characters will select a range between the two.
+- [\s\S] This is used in regex for character sets that can be used to match any character, including line breaks, without the dotall flag. 
 - . Is like a wildcard that will not accept any input. This character will expect a linebreak that will match.
 - \w Will match any character either alphanumeric & underscore. It will not match any o accented or non-roman characters.
--
+- \d Matches any digit character (0-9)
+- \p Matches a character in the specified unicode category.
 
 ### Flags
 
 ### Grouping and Capturing
+
+Grouping expressions allows us to keep things more organized and easier to exact the characters of a given group. This is used with parentheses "()".
 
 ### Bracket Expressions
 
