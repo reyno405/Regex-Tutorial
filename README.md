@@ -53,11 +53,18 @@ Character classes in regex matches a character from a specific set. There are nu
 
 ### Flags
 
+Flags are also called modifiers because they modify the output of a regular expression. These flags can be used in any order or combination, and are an integral part of the RegExp.
+
+- i	Case insensitive: Match will be case-insensitive.
+- g	Global Search: Match all instances, not just the first.
+- m	Multiline: Anchor meta characters work on each line.
+
 ### Grouping and Capturing
 
 Grouping expressions allows us to keep things more organized and easier to exact the characters of a given group. This is used with parentheses "()".
 
 ### Bracket Expressions
+- In regex we use [] to define define the character class. Any characters placed inside them will produce a match to the Regex pattern, unless the character(^) precedes the characters in the class. In the Regex example above [a-z] defines any character class that is within the alphabet.
 
 ### Greedy and Lazy Match
 
