@@ -88,6 +88,16 @@ By default, a regex will perform a greedy match, which means the match will be a
 
 ### Boundaries
 
+Matches on a word boundary, meaning one side is a word character (like \w) and the other side is not a word character (like a space character).
+
+There are three separate positions to qualify as a word boundary:
+
+- Before the initial character in the string, if the first character is a word character
+
+- After the last character in a string, if the last character is a word character
+
+- Between two characters within the string, where one is a word character while the other is not a word character
+
 ### Back-references
 
 Backreferences match the same text as previously matched by a capturing group. Suppose you want to match a pair of opening and closing HTML tags, and the text in between. By putting the opening tag into a backreference, we can reuse the name of the tag for the closing tag. 
@@ -96,7 +106,7 @@ Backreferences match the same text as previously matched by a capturing group. S
 
 Lookaheads and lookbehinds forces the main expressions to be what you have defined it as. Without it being exactly what it is it will not be accepted as a valid input.
 
--(?=ABC) is a postive lookahead and it matches a group after the main expression without including it in the result.
+- (?=ABC) is a postive lookahead and it matches a group after the main expression without including it in the result.
 
 - (?!ABC) is a negitive lookahead and it specifies a group that can not match after the main expression (if it matches, the result is discarded)
 
@@ -106,4 +116,8 @@ Lookaheads and lookbehinds forces the main expressions to be what you have defin
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Kevin Reynolds
+
+Kevin Renolds is a coding student at Michigan State Univerysity completing a certification in full-stack development.
+
+GitHub: https://github.com/reyno405
