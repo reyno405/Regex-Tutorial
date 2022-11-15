@@ -46,6 +46,11 @@ Anchors do not match any characters, but instead they match specific positions. 
 
 Quantifiers determine how many instances of a character, group, or character class must be present for a match to be found.
 
+- + Could be any amount, but there has to be at least one.
+- {2} we use these brackets to indicate a specific number, in this case 2.
+- {2,} put a comma after and it becomes 2 or more.
+- {2,6} now we have a range of 2-6.
+
 ### OR Operator
 
 The "or" operator within a regular expression is defined using the | element. The or operator indicates that it could either of the components that we are separating with the |. For our hex value regular expression we have ([a-f0-9]{6}|[a-f0-9]{3}). Note the or operator separating these 2 components. This means that our hex value could either be 6 characters [a-f0-9]{6} or 3 characters [a-f0-9]{3}.
