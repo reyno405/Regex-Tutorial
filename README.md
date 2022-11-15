@@ -49,7 +49,7 @@ Quantifiers determine how many instances of a character, group, or character cla
 - + Could be any amount, but there has to be at least one.
 - {2} we use these brackets to indicate a specific number, in this case 2.
 - {2,} put a comma after and it becomes 2 or more.
-- {2,6} now we have a range of 2-6.
+- {2,6} now these have a range of 2-6.
 
 ### OR Operator
 
